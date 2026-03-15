@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@300;400;600;700&display=swap");
+:root{
+  --font-th:"Krub",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans Thai","Noto Sans",sans-serif;
+  --gov-blue:#0b2a5b;
+  --gov-blue-2:#143f86;
+  --gov-yellow:#f6c400;
+  --gov-bg:#f5f7fb;
+}
+html,body{
+  font-family:var(--font-th);
+}
+body{
+  background:var(--gov-bg);
+}
+.bg-gov{
+  background:linear-gradient(135deg,var(--gov-blue),var(--gov-blue-2));
+}
+.btn-gov{
+  background:var(--gov-blue);
+  border-color:var(--gov-blue);
+  color:#fff;
+}
+.btn-gov:hover{
+  background:var(--gov-blue-2);
+  border-color:var(--gov-blue-2);
+  color:#fff;
+}
+.badge-gov{
+  background:var(--gov-yellow);
+  color:#111;
+}
+.card{
+  border:0;
+  box-shadow:0 10px 25px rgba(11,42,91,.08);
+  border-radius:14px;
+}
+.sidebar{
+  background:#fff;
+  border-right:1px solid rgba(0,0,0,.06);
+  min-height:100vh;
+}
+.sidebar .nav-link{
+  color:#20324f;
+  border-radius:10px;
+  padding:.65rem .9rem;
+}
+.sidebar .nav-link.active{
+  background:rgba(11,42,91,.10);
+  color:var(--gov-blue);
+  font-weight:600;
+}
+.topbar{
+  background:#fff;
+  border-bottom:1px solid rgba(0,0,0,.06);
+}
+.brand-mark{
+  width:38px;
+  height:38px;
+  border-radius:12px;
+  object-fit:contain;
+  background:#fff;
+  border:1px solid rgba(0,0,0,.06);
+  padding:4px;
+}
+.stat-icon{
+  width:44px;
+  height:44px;
+  border-radius:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(11,42,91,.08);
+  color:var(--gov-blue);
+}
+.table thead th{
+  background:#f2f5fb;
+  border-bottom:0;
+}
+.form-control,.form-select{
+  border-radius:12px;
+}
+.btn{
+  border-radius:12px;
+}
+.rounded-14{
+  border-radius:14px;
+}
+.text-gov{
+  color:var(--gov-blue);
+}
